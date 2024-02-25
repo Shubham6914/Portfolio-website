@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!-- custom css -->    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo">Shubham.</a>
+      <i class='bx bx-menu' id="menu-icon"></i>
+      <nav class="navbar">
+         <a href="#home">Home</a>
+         <a href="#about">About</a>
+         <a href="#services">Skills</a>
+         <a href="#portfolio">Projects</a>
+         <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+         <h3>Hi There,</h3>
+         <h1>Shubham Kumar</h1>
+         <h3>And I'm <span class="multiple-text"></span></h3>
+         <p>Skilled in backend development and possess expertise in REST API development, enabling seamless communication between different components of a system.</p>
+            <div class="social-media">
+               <a href="https://www.facebook.com/profile.php?id=100009968645370"><i class='bx bxl-facebook' ></i></a>
+               <a href="https://www.instagram.com/shubham_sharma_4661/"><i class='bx bxl-instagram-alt' ></i></a>
+               <a href="https://www.linkedin.com/in/shubham-kumar-33412628a/"><i class='bx bxl-linkedin' ></i></a>
+               <a href="https://github.com/Shubham6914"><i class='bx bxl-github' ></i></a>
+            </div>
+            <!-- <a href="#" class="btn">Download CV</a> -->
+      </div>
+      <div class="home-image">
+         <img src="images/shubhee.png" alt="">
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/shubhee.png" alt="">
+      </div>
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Backend Developer</h3>
+        <p>Welcome to my portfolio website! My name is Shubham Kumar, and I have completed my Bachelor of Computer Science from Chandigarh University in July 2023.</p>
+        <p>As a programming and development enthusiast, I find great joy in building server-side applications from scratch.
+          My expertise lies in Backend development. I am a passionate backend developer with a strong foundation in Python and its frameworks like Django and Django Rest Framework, as well other tools. Additionally, I possess knowledge of databases such as MySQL and PostgreSQL. </p>
+          <!-- <p>I am skilled in backend development and possess expertise in REST API development, enabling seamless communication between different components of a system.</p> -->
+          <a href="https://drive.google.com/file/d/1zbw-rG-576b9P-rcEpwD5uckRte2wgg6/view?usp=sharing" class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- skill section start here  -->
+
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Skills</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3 class="sub-title">Backend Development</h2>
+            <p>I possess a proficient understanding of backend development utilizing Python and its associated frameworks.</p>
+            <p>particularly Django and Django Rest Framework, for building robust RESTful APIs and server-side applications.</p>
+          <a href="https://www.djangoproject.com/" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3 class="sub-title">Frontend Development</h2>
+          <p>I have a foundational understanding of frontend technologies like HTML, CSS, JavaScript.</p>
+          <p> And Bootstrap, as well as the process of integrating them with backend systems.</p>
+          <a href="https://www.w3schools.com/whatis/whatis_frontenddev.asp" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-computer"></i>
+          <h3 class="sub-title">Computer Science </h2>
+          <p >I possess a foundational understanding of computer science fundamentals like operating systems, database management.</p>
+          <p> And basics of data structures and algorithms, as well as low-level design principles.</p>
+          <a href="https://www.geeksforgeeks.org/computer-fundamentals-tutorial/" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section design -->
+    
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">My <span>Projects</span></h2>
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img class="setup" src="images/proj1.jpg" alt="project1">
+          <div class="portfolio-layer">
+            <h4>GymFtness</h4>
+            <p>Built A Full-Stack Web App.
+              Enabling users to create accounts, enroll in  programs, and track their attendance.
+              Behind the scenes, the application leverages Django's powerful Object-Relational Mapping (ORM) for efficient database management.
+              Used Python, Django and SQL Lite for Backend and HTML, CSS and JavaScript for Frorntend </p>
+            <a href="https://github.com/Shubham6914/GymFitness"class="btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img class="setup" src="images/shop.JPG"  alt="project1">
+          <div class="portfolio-layer">
+            <h4>Ecommerce-site</h4>
+            <p>Built A Full-Stack Web App enables users to authenticate, browse various fashionable clothes, and purchase products.
+              Used Sandbox API for the payment gateway and Python, Django, and MySQL for the backend and  HTML, CSS, JavaScript, and Bootstrap for the frontend.Implemented functionalities like signin, login, password recovery.</p>
+            <a href="https://github.com/Shubham6914/Ecommerce-Django"class="btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img class="setup" src="images/miniblog.JPG"   alt="project1">
+          <div class="portfolio-layer">
+            <h4>Miniblog</h4>
+            <p>
+              Built a web app that empowers users to publish blogs effortlessly, incorporating essential features such as user authentication, permission management, and CRUD operations for managing blog posts. Utilized Django's authentication system, authorization, and permission classes to authorize users effectively. Leveraged SQLite database to ensure secure and efficient functionality.</p>
+            <a href="https://github.com/Shubham6914/MiniBlog-" class="btn"><i class="fa-brands fa-github"></i></a>
+          </div> 
+        </div>
+        <div class="portfolio-box">
+          <img  class="set" src="images/auth.jpeg" alt="project1">
+          <div class="portfolio-layer">
+            <h4>Auth-API</h4>
+            <p>Built a web authentication API to authenticate users,
+              Implemented functionalities such as user registration, user profile retrieval, password change, password reset.
+              USed Django Rest Framework, REST API architecture, and Postman for testing, and JWT for token-based authentication.</p>
+            <a href="https://github.com/Shubham6914/Authentication-Api-" class="btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img class="set" src="images/invoice.jpeg" alt="project1">
+          <div class="portfolio-layer">
+            <h4>Invoice-API</h4>
+            <p>Built a web application with an API enabling users to perform CRUD operations.
+              The API features endpoints for CRUD operations both invoices and invoice details. Notably,
+              it accepts invoice details in the payload for both creation and updating processes.</p>
+            <a href="https://github.com/Shubham6914/django-invoicing-api" class="btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img class="set" src="images/crud.jpeg" alt="project1">
+          <div class="portfolio-layer">
+            <h4>DJango-Form</h4>
+            <p>Built a web app that integrates a form using Django forms and HTML, CSS, and JavaScript within the Django framework.
+              Users can submit their data through the form, used Django ORM for efficient database management.
+              Additionally, the app provides functionality for users to update or delete their submitted data.</p>
+            <a href="https://github.com/Shubham6914/Django-Form" class="btn"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="https://formspree.io/f/xrgnkprq" method="POST">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required> 
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-box">
+          <input type="number" name="phoneNumber" placeholder="Mobile Number" required>
+          <input type="text" name="subject" placeholder="Email Subject" required>
+        </div>
+        <textarea name="" id="" cols="30" rows="10" name="message" placeholder="Your Meassage" required></textarea>
+        <input type="submit" value="Send Meassage" class="btn">
+      </form>
+    </section>
+    <!-- Contact me -->
+    <section class="contact_1" id="contact_1">
+      <div class="cnt">
+        <!-- <h2  class="cm">Contact Me</h2> -->
+        <div class="contact-details">
+          <div class="contact-info">
+            <h3>Address</h3>
+            <p>Chamba, Himachal Pradesh India, 176314</p>
+          </div>
+          <div class="contact-info">
+            <h3>Mobile Number</h3>
+            <p>+91 8219756114</p>
+          </div>
+          <div class="contact-info">
+            <h3>Email</h3>
+            <p class="mail">shubhee1021@gmail.com</p>
+          </div>
+          <div class="contact-info">
+            <h3>Social Media</h3>
+            <div class="social-media-links">
+              <a href="https://www.instagram.com/shubham_sharma_4661/" target="_blank" class="social-link"><i class="fa-lg fa-brands fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/shubham-kumar-33412628a/" target="_blank" class="social-link"> <i class="fa-lg fa-brands fa-linkedin"></i> </a>
+              <a href="https://github.com/Shubham6914" target="_blank" class="social-link"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer design -->
+    <!-- <footer class="footer">
+      <div class="footer-text">
+
+      </div>
+    </footer> -->
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js  -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
